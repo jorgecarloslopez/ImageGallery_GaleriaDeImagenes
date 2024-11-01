@@ -10,3 +10,19 @@ body {
 h1 {
   color: #333;
 }
+
+.galery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  opacity: 0.8;
+}
