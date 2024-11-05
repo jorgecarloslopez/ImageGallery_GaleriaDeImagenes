@@ -11,3 +11,7 @@ galleryImages.forEach((img) => {
     caption.innerText = img.alt;
   });
 });
+
+closeButton.addEventListener("click", () => {
+  modal.style.display = "none";
+});
